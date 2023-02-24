@@ -4,7 +4,7 @@ import Hero from '@/components/Hero'
 
 const Home = () => {
   return (
-    <>
+    <div className='bg-[rgb(36,36,36)] text-white h-screen'>
       <Head>
         <title>Joe Leahy Creative</title>
       </Head>
@@ -19,7 +19,7 @@ const Home = () => {
       {/* Skills */}
       {/* Projects */}
       {/* About Me */}
-      </>
+      </div>
   )
 }
 
