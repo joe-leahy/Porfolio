@@ -6,7 +6,6 @@ const Header = () => {
   return (
     <header className="sticky top-0 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center">
       <motion.div 
-
         initial={{
             x:-500,
             opacity:0,
@@ -35,13 +34,26 @@ const Header = () => {
         </motion.div>
 
 
-        <div className="flex flex-row items-center text-gray-300 cursor-pointer">
+        <motion.div 
+        initial={{
+            x:500,
+            opacity:0,
+            scale:.5,
+        }}
+        animate={{
+            x:0,
+            opacity:1,
+            scale:1,
+        }}
+        transition={{duration:1}}
+        
+        className="flex flex-row items-center text-gray-300 cursor-pointer">
           <SocialIcon 
             network="email" 
             fgColor="grey" 
             bgColor="transparent" />
             <p className="uppercase hidden md:inline-flex text-sm text-gray-400">Let's Talk!</p>
-        </div>
+        </motion.div>
     </header>
   );
 };
