@@ -22,6 +22,12 @@ const Header = () => {
       
       className="flex flex-row items-center">
         <SocialIcon
+          url="https://www.joeleahycreative.com/"
+          fgColor="grey"
+          bgColor="transparent"
+          network="squarespace"
+        />
+        <SocialIcon
           url="https://www.linkedin.com/in/joseph-leahy/"
           fgColor="grey"
           bgColor="transparent"
