@@ -14,8 +14,8 @@ const Experience = () => {
       </h3>
       
       <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-mandatory">
-      <ExperienceCard />
-      <ExperienceCard />
+      <ExperienceCard imgSrc='https://www.crewblast.co/wp-content/uploads/2022/09/Crew-Blast-Logo-ai.png'/>
+      <ExperienceCard imgSrc='https://s3.us-east-1.amazonaws.com/fsa2-assets/assets/Logos/fullstack-academy-logo-full-color-rgb.jpg'/>
       <ExperienceCard />
       <ExperienceCard />
       </div>

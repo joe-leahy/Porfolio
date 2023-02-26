@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const ExperienceCard = () => {
+const ExperienceCard = (props) => {
   return (
     <article className="p-5 flex flex-col rounded-lg items-center space-y-7 
     flex-shrink-0 w-[500px] md:w-[600px] xl:w=[900px] snap-center bg-[#292929]
@@ -11,7 +11,7 @@ const ExperienceCard = () => {
         transition={{ duration: 1.2 }}
         whileInView={{ opacity: 1, y: 0 }}
         className="w-32 h-32 xl:w-[400px] xl:h-[200px] object-cover oject-center"
-        src="https://www.crewblast.co/wp-content/uploads/2022/09/Crew-Blast-Logo-ai.png"
+        src={props.imgSrc}
       />
       <div className="px-0 md:px-10">
         <h4 className="text-4xl font-light">Fullstack Deveoper</h4>
